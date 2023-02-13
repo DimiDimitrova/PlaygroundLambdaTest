@@ -1,0 +1,39 @@
+﻿
+namespace ECommerce
+{
+    public enum Navbar
+    {
+        [Description("account")]
+        MyAccount,
+        [Description("edit")]
+        EditAccount,
+        [Description("password")]
+        Password,
+        [Description("address")]
+        AddressBook,
+        [Description("wishlist")]
+        WishList,
+        [Description("notification")]
+        Notification,
+        [Description("order")]
+        OrderHistory,
+        [Description("download")]
+        Downloads,
+        [Description("recurring")]
+        RecurringPayments,
+        [Description("reward")]
+        RewardPoints,
+        [Description("returns")]
+        Returns,
+        [Description("transaction")]
+        Transaction,
+        [Description("newsletter")]
+        Newsletter,
+        [Description("logout")]
+        Logout,
+        [Description("login")]
+        Login,
+        [Description("register")]
+        Register
+    }
+}
